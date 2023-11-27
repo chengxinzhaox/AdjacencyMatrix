@@ -6,7 +6,7 @@ import java.util.List;
 
 public class AdjacencyMatrix {
     public static void main(String[] args) {
-        String fileName = "src/main/java/org/example/Log.txt";
+        String fileName = "src/Log.txt";
 
         try {
             BufferedReader reader = new BufferedReader(new FileReader(fileName));
