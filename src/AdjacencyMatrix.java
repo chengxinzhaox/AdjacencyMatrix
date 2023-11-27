@@ -44,7 +44,7 @@ public class AdjacencyMatrix {
             for (int i = 0; i < nodeCount; i++) {
                 System.out.printf("%-3s ", nodeNames.get(i));
                 for (int j = 0; j < nodeCount; j++) {
-                    System.out.print(matrix[i][j] ? "T   " : "F   ");
+                    System.out.print(matrix[i][j] ? "1   " : "0   ");
                 }
                 System.out.println();
             }
